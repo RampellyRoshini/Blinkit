@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Okra', Helvetica, sans-serif;
+}
+
+#nav{
+    /* border: 2px solid red; */
+    height: 85px;
+}
+
+#sub-nav{
+    /* border: 2px solid blue; */
+    height: inherit;
+}
+
+#left-ol{
+    /* border: 2px solid pink; */
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#left-ol li{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+#center-ol{
+    list-style: none;
+}
+
+#center-ol input{
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgba(220, 220, 220, 0.164);
+   z-index: -1;
+    /* border: none; */
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 5%;
+    left: 31%;
+    font-size: 18px;
+    
+}
+
+#right-ol{
+    /* border: 2px solid; */
+    width: 15%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+#right-ol li{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Okra-Regular;
+    transition: font-size 0.5s ease 0s;
+}
+
+#log{
+    padding-left: 15%;
+    padding-top: 5%;
+    color: rgb(54, 54, 54);
+    font-family: Okra-Regular;
+}
+
+#cart{
+    border: 2px solid;
+    width: 48%;
+    height: 45px;
+    text-align: center;
+    padding-top: 3%;
+    background-color: #0c831f;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#main1 img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#main2{
+    /* border: 2px solid; */
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#main2 img{
+    /* border: 2px solid; */
+    margin-left: 1%;
+}
+
+#cart1{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#cart2{
+    margin-left: 10%;
+}
+
+#item1{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.card{
+    /* border: 2px solid blue; */
+    width: 55%;
+    height: 45vh;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 13px;
+    width: 155px;
+    height: 36px;
+    color: #1f1f1f;
+}
+
+.card-btn{
+    position: absolute;
+    top: 89%;
+    right: 10%;
+    width: 38%;
+    border-radius: 8px;
+    color: #318616;
+    background: #f7fff9;
+    border: 1px solid rgb(49, 134, 22);
+
+}
+#head1{
+    position: absolute;
+    top: 130%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#head2{
+    position: absolute;
+    top: 190%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+#item2{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#item3{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#head3{
+    position: absolute;
+    top: 250%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#item4{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#head4{
+    position: absolute;
+    top: 310%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#item5{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#head5{
+    position: absolute;
+    top: 368%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#item6{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#head6{
+    position: absolute;
+    top: 428%;
+    left: 10%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+hr{
+   margin-top: -1%;
+}
